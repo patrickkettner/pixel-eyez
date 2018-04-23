@@ -1,24 +1,32 @@
 @font-face {
   font-family: 'Inter UI';
-  src: url('/fonts/Inter-UI-Regular.woff') format('woff');
+  src: url('/fonts/Inter-UI-Regular.woff2') format('woff2'),
+       url('/fonts/Inter-UI-Regular.woff') format('woff');
+  font-display: optional;
   font-weight: regular;
 }
 
 @font-face {
   font-family: 'Inter UI';
-  src: url('/fonts/Inter-UI-Medium.woff') format('woff');
+  src: url('/fonts/Inter-UI-Medium.woff2') format('woff2'),
+       url('/fonts/Inter-UI-Medium.woff') format('woff');
+  font-display: optional;
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'Inter UI';
-  src: url('/fonts/Inter-UI-Bold.woff') format('woff');
+  src: url('/fonts/Inter-UI-Bold.woff2') format('woff2'),
+       url('/fonts/Inter-UI-Bold.woff') format('woff');
+  font-display: optional;
   font-weight: 700;
 }
 
 @font-face {
   font-family: 'Inter UI';
-  src: url('/fonts/Inter-UI-Black.woff') format('woff');
+  src: url('/fonts/Inter-UI-Black.woff2') format('woff2'),
+       url('/fonts/Inter-UI-Black.woff') format('woff');
+  font-display: optional;
   font-weight: 900;
 }
 
